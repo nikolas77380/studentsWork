@@ -1,0 +1,295 @@
+#title {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-top: 20px
+}
+h1 {
+  font-family: "Oswald";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+h3 {
+  font-family: "oswald";
+  font-weight: bold;
+}
+h4 {
+  font-family: "oswald";
+  font-weight: lighter;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p,ul, div, button, a {
+  font-family: 'Times New Roman', serif;
+}
+
+body {
+  font-family: "roboto";
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  background-color: #000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: sticky;
+  top: 0;
+}
+
+.logomain {
+  font-family: "oswald";
+  font-weight: bold;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.logomain:hover {
+  color: #e0e1dd;
+}
+
+.navbarmain {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navitems{
+  display: flex;
+  align-items: center;
+}
+
+.navitem {
+  font-weight: bold;
+  color: #fff;
+  padding: 15px;
+}
+
+.navitem:hover {
+  color: #e0e1dd;
+}
+
+.headerinside {
+  display: flex;
+  color: #fff;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.imageblock {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.taglineblock {
+  width: 40%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+#features {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+  
+
+.features-items {
+  width: 30%;
+  text-align: center;
+}
+
+#feedbacks {
+  background-color: #e0e1dd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.feedbackblock {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.feedbackimage {
+  width: 50%;
+}
+
+.feedbackname {
+  font-style: italic;
+}
+
+#partners {
+  background-color: #e0e1dd;
+  padding-bottom: 20px;
+}
+
+.partnerslogo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;   
+  margin: auto;
+  text-align: center;
+}
+
+.logo {
+  width: 60%
+}
+
+#pricing {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 40px;
+}
+
+.pricing_card {
+  border: thin solid #a1a1a1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  width: 30%;
+  padding-bottom: 10px;
+  justify-content: space-between;
+}
+
+.pricing_card3 {
+  border: thin solid blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  width: 30%;
+  padding-bottom: 10px;
+}
+
+
+
+.price_header {
+  padding-top: 5px;
+  background-color: #edeeea;
+  width: 100%;   
+  padding-bottom: 5px;
+}
+
+.price_body {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.price_button {
+  border: thin solid #000;
+  width: 90%;
+  border-radius: 5px;
+}
+
+.price_button:hover {
+  background-color: #e0e1dd ;
+}
+
+.price_button_black {
+  background-color: #000;
+  color: #fff;
+  width: 90%;
+  border-radius: 5px;
+}
+
+.price_button_black:hover {
+  background-color: rgb(41, 40, 40);
+  color: #fff;
+  width: 90%;
+  border-radius: 5px;
+}
+
+#footer {
+  background-color: #e0e1dd;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  #title {
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+  }
+  .imageblock {
+    width: 50%;
+  }
+  .taglineblock {
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  #features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .features-items {
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricing_card {
+    width: 60%;
+    margin-bottom: 40px;
+  }
+
+  .pricing_card3 {
+    width: 70%;
+    margin-bottom: 40px;
+  }
+
+  .header{
+    display: none;
+  }
+
+
+}
+
