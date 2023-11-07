@@ -252,6 +252,13 @@ h4 {
     text-decoration: none;
 }
 
+.btn:hover {
+    background-color: #c04717;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
 #footer {
     background: #262626;
     padding: 40px 0 20px 0;
