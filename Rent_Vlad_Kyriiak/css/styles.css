@@ -1,0 +1,203 @@
+#title {
+  background-color: #000;
+  color: #fff;
+}
+h1 {
+  font-family: "Oswald";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+h3 {
+  font-family: "oswald";
+  font-weight: bold;
+}
+body {
+  font-family: "roboto";
+}
+
+ul, ol, li{
+  list-style-type: none;
+}
+
+.content{
+  margin: 0 15%;
+}
+
+.main_title{
+  font-family:Black Ops One;
+}
+
+.navbar-brand{
+  color: #fff;
+}
+
+.navbar-nav{
+  color: #fff;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+}
+
+.navbar ul{
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar a:hover{
+  color: aqua;
+}
+
+.image{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding-bottom: 48px;
+}
+
+.title-text{
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+  width: 19rem;
+  text-align: center;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn.btn-dark{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#features{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.box{
+  display: flex;
+  justify-content: space-between;
+}
+
+.content_1{
+  text-align: center;
+  width: 25%;
+  
+}
+.content_1 p{
+  color: grey;
+}
+
+.svg{
+  margin-bottom: 1rem;
+}
+
+ #feedbacks{
+  background-color: #F8F9FA;
+ }
+.feedback-title{
+  text-align: center;
+  font-size: 3.5rem;
+  line-height: 1.2;
+}
+
+.img-laptop{
+  display: flex;
+  justify-content: center;
+}
+
+.img-laptop p{
+  display: flex;
+  font-style: italic;
+  align-items: center;
+}
+
+.partners{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.btn-outline-primary{
+  --bs-btn-color: black;
+  --bs-btn-border-color: black;
+}
+
+.btn-primary{
+  --bs-btn-bg: black;
+  --bs-btn-border-color: black;
+}
+
+.text-bg-primary {
+  color: #000!important;;
+}
+
+.border-primary {
+border-color: #D2D2D2!important;
+background-color: #F8F8F8!important;
+}
+
+.card-body{
+  background-color: #fff!important;
+}
+
+#footer{
+  display: flex;
+  justify-content: center;
+  background-color: #F8F9FA;
+  height: 50px;
+  align-items: center;
+  padding-top: 20px;
+}
+
+@media (max-width: 767px){
+  .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .content_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+  }
+
+  .image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar{
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .partners img{
+    width: 35%;
+  }
+}
+
