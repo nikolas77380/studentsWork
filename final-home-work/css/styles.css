@@ -1,0 +1,220 @@
+#title {
+  background-color: #000;
+  color: #fff;
+}
+
+h1 {
+  font-family: "Oswald";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "oswald";
+  font-weight: bold;
+}
+
+body {
+  font-family: "roboto";
+}
+
+p {
+  color: #edede9;
+}
+
+.container-fluit {
+  background-color: #000;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu li {
+  color: #fff;
+}
+
+.header {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding-top: 30px;
+
+}
+
+.header ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.header ul li {
+  list-style: none;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 3rem;
+
+}
+
+.download {
+  background-color: #000;
+  color: #fff;
+}
+
+.image {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 30px 0;
+
+}
+
+.gadgets {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+  margin: auto;
+  text-align: center;
+}
+
+.buttons {
+  display: inline-flex;
+  justify-content: center;
+  padding: 30px 0;
+  margin: auto;
+  gap: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.easy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 50px 0;
+}
+
+.devices {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 50px 0;
+}
+
+.devices h4 {
+  display: flex;
+  justify-content: center;
+}
+
+.works {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 50px 0;
+}
+
+.works h4 {
+  display: flex;
+  justify-content: center;
+}
+
+.reklama {
+  background-color: #edede9;
+  display: flex;
+  justify-content: center;
+}
+
+.reklama h5 {
+  margin: 20px 30px 0 30px;
+}
+
+.ipad {
+  background-color: #edede9;
+  display: flex;
+  justify-content: center;
+}
+
+.ipad p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-family: cursive;
+}
+
+.sponsor {
+  background-color: #edede9;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.sponsor_1 {
+  display: flex;
+  justify-content: space-around;
+  margin: 25px auto;
+}
+
+.sponsor_2 {
+  display: flex;
+  justify-content: center;
+  margin: 25px auto;
+}
+
+.sponsor_3 {
+  display: flex;
+  justify-content: space-around;
+  margin: 25px auto;
+}
+
+.price_container {
+  margin: 30px;
+}
+
+.card-body_2>button {
+  background-color: #000;
+}
+
+.card-body_3>button {
+  background-color: #000;
+}
+
+div.card-header {
+  background-color: rgb(240, 238, 230);
+}
+
+#footer {
+  background-color: #edede9;
+  display: flex;
+  justify-content: center;
+}
+
+#footer p {
+  color: #000;
+  padding: 10px auto;
+  margin: 10px auto;
+}
