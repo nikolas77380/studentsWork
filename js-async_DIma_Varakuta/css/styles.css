@@ -1,0 +1,114 @@
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+.title {
+  font-family: Caprasimo;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.bd-mode-toggle {
+  z-index: 1500;
+}
+
+.summaryWrapper {
+  height: 200px;
+  overflow-y: scroll;
+  margin-bottom: 20px;
+}
+.row{
+   display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#rowContainer {
+  min-height: 300px;
+}
+.image {
+  width: 100%;
+  object-fit: cover;
+  height: 250px;
+}
+
+h3 {
+  font-family: Roboto Serif;
+  border-bottom: 1px solid grey;
+}
+.card-text{
+  height: 0px;
+  overflow: auto;
+}
+.card-body{
+  height: auto;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background: linear-gradient(to bottom, #202020, #111119);
+  
+  background-size: cover;
+}
+
