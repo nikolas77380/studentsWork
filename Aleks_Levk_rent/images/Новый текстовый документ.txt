@@ -1,0 +1,150 @@
+          <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              fill="currentColor"
+              class="bi bi-record-circle"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+              />
+              <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+         </svg>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              fill="currentColor"
+              class="bi bi-check-circle"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+              />
+              <path
+                d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
+              />
+            </svg>
+
+
+
+
+
+
+
+<div id="title">
+      <nav class="navbar navbar-expand-lg bg-black navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#"><h1>Top Rent</h1></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto  mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Download</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+      <nav class="navbar navbar-expand-lg bg-black ">
+        <div class="container ">
+          <img src="images/iphoneImage.png" alt="" class="navbar-brad">
+          <div class="header-btn">
+            <h1 class="col-lg-6 ">Finde best gadgets neardy.</h1>
+            <div class="btn_download">
+          <button class="btn btn-outline-secondary text-white" type="button" id="btn1">
+            <i class="fa fa-apple" aria-hidden="true"></i>
+            Download
+          </button>
+          <button class="btn btn-outline-secondary text-white" type="button" id="btn2">
+            <i class="fa fa-play" aria-hidden="true"></i>
+            Download
+          </button>
+        </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    </div>
+    
+
+    <!-- Features -->
+
+    <div id="features">
+      <div class="container">
+        <div class="w3">
+          <div class="w3_image">
+            <svg
+              id="bi"
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              fill="currentColor"
+              class="bi bi-record-circle"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+              />
+              <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+           </svg>
+           <h3>Easy to rent.</h3>
+           <p class="txt_feature">Even kid could do it</p>
+          </div>
+          <div class="w3_image_2">
+            <svg
+              id="bi2"
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              fill="currentColor"
+              class="bi bi-check-circle"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+              />
+              <path
+                d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
+              />
+            </svg>
+            <h3>Top Devicec</h3>
+            <p class="txt_feature">We have all kind of gadgets, the best gadgetsS</p>
+          </div>
+          <div class="w3_image_3">
+            <h3>Guaranteed to work</h3>
+              <p class="txt_feature">Get the gadget for use or your money back</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+
+    <!-- feedbacks -->
+
+    <div id="feedbacks">
+      <div class="container">
+         <h2 class="feed_text">I needed laptop for quick job on vacation, and guyshelped me really fast</h2>
+      </div>
+      <div>
+        <div class="feed_img">
+          <img src="images/asusImage.png" class="asus_img" alt="">
+          <p ><em class="asus_txt">Peter, New York</em></p>
+        </div>
+      </div>
+    </div>
