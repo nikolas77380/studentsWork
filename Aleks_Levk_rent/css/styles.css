@@ -1,0 +1,88 @@
+#title {
+  background-color: #000;
+  color: #fff;
+  
+}
+
+h1 {
+  font-family: "Oswald";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+h3 {
+  font-family: "oswald";
+  font-weight: bold;
+}
+body {
+  font-family: "roboto";
+}
+
+.i::before {
+
+}
+
+.navbar-nav {
+  display: inline;
+  margin-left: 80%;
+}
+.header-btn {
+  color: #fff;
+ 
+}
+.btn_download {
+  margin-left: 20%;
+}
+
+/* Features */
+#features {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  }
+
+.w3 {
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 
+}
+
+#bi {
+  margin-left: 25%;
+}
+#bi2 {
+  margin-left: 25%;
+}
+.w3_image_2 {
+  grid-column: 3;
+  grid-row: 1;
+}
+.w3_image_3 {
+  padding-top: 30px;
+  grid-column: 5;
+  grid-row: 1;
+}
+.txt_feature {
+  color: rgb(126, 126, 128);
+  font-size: .8rem;
+}
+/* feedbacks */
+
+.feed_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: serif;
+}
+.asus_img {
+  width: 20%;
+  height: 20%;
+  
+}
+.asus_txt {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
